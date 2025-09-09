@@ -23,9 +23,7 @@
 }
 
 :root{
-  --grayblue:hsl(228, 45%, 44%);
   --lightyellow:hsl(47,88%,63%);
-  --lighttgray:hsl(0, 0%, 42%);
 }
 
 body{

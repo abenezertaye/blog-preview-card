@@ -21,15 +21,18 @@
   width:100px;
   padding: 6px;
   border-radius: 4px;
-  text-align: center;;
+  text-align: center;
+  font-family: "Figtree-bold";
 }
 
 #publishing-date{
   margin-bottom: 10px;
+  font-family: "Figtree-medium";
 }
 
 h1{
-  font-size:20px;
+  font-family: "Figtree-bold";
+  font-size: 18px;
 }
 
 #description{
