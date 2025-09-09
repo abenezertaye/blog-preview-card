@@ -36,3 +36,7 @@ body{
   font-family: 'Figtree',sans-serif;
   font-size:18px;
 }
+
+h1,p{
+  margin-block:5px;
+}
