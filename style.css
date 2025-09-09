@@ -1,0 +1,61 @@
+#blog-card{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width:300px;
+  height:430px;
+  padding:15px;
+  border:2px solid hsl(0, 0%, 42%);
+  border-radius: 10px;
+  box-shadow: 10px 10px hsl(0, 0%, 7%);
+}
+
+#illustration-image{
+  width:100%;
+  border-radius: 8px;
+}
+
+#title{
+  margin-block: 10px;
+  background-color: var(--lightyellow);
+  width:100px;
+  padding: 6px;
+  border-radius: 4px;
+  font-family: 'Figtree-bold';
+  text-align: center;;
+}
+
+#publishing-date{
+  margin-bottom: 10px;
+  font-family: "Figtree-medium";
+}
+
+h1{
+  font-size:20px;
+  font-family: 'Figtree-bold';
+}
+
+#description{
+  font-size:0.9em;
+  margin-block: 10px;
+  color:hsl(0, 0%, 42%);
+}
+
+#personnel{
+  display:flex;
+  align-items: center;
+}
+
+#person-name{
+  margin-left:10px;
+  font-family: 'Figtree-bold';
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+  position: absolute;
+  bottom:10px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}

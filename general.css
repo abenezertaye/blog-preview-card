@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Figtree-italic';
+  src: url('assets/fonts/static/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* supports a range from thin to black */
+  font-style: normal;   
+}
+
+@font-face{
+  font-family:'Figtree-medium';
+  src: url('assets/fonts/static/Figtree-Medium.ttf') format('truetype');
+}
+
+@font-face{
+  font-family:'Figtree-bold';
+  src: url('assets/fonts/static/Figtree-ExtraBold.ttf') format('truetype');
+}
+
+:root{
+  --grayblue:hsl(228, 45%, 44%);
+  --lightyellow:hsl(47,88%,63%);
+  --lighttgray:hsl(0, 0%, 42%);
+}
+
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--lightyellow);
+  font-family: 'Figtree',sans-serif;
+  font-size:18px;
+}
+
+p{
+  margin:0;
+}
+
+h1{
+  margin:0;
+}
+
+
