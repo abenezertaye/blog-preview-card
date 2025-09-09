@@ -1,49 +1,56 @@
 #blog-card{
   display: flex;
   flex-direction: column;
-  background-color: white;
-  width:380px;
+  background-color: hsl(0, 0%, 100%);
+  width:350px;
   height:fit-content;
   padding:15px;
   border:2px solid hsl(0, 0%, 42%);
-  border-radius: 10px;
+  border-radius: 14px;
   box-shadow: 10px 10px hsl(0, 0%, 7%);
 }
 
 #illustration-image{
   width:100%;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 
 #title{
-  margin-block: 10px;
   background-color: var(--lightyellow);
-  width:100px;
+  margin-top:20px;
+  width:90px;
   padding: 6px;
   border-radius: 4px;
   text-align: center;
-  font-family: 'Figtree-bold';
+  font-family: "Figtree-bold";
 }
 
 #publishing-date{
-  margin-bottom: 10px;
+  margin-block: 10px;
   font-family: "Figtree-medium";
 }
 
 h1{
-  font-family: 'Figtree-bold';
-  font-size: 18px;
+  font-family: "Figtree-bold";
+  font-size: 25px;
+  margin-bottom:10px;
 }
 
 #description{
   font-size:0.9em;
-  margin-block: 10px;
+  margin-bottom: 14px;
   color:hsl(0, 0%, 42%);
+  line-height: 22px;
 }
 
 #personnel{
   display:flex;
   align-items: center;
+  margin-top:5px;
+}
+
+#person-image{
+  width: 30px;
 }
 
 #person-name{
@@ -58,6 +65,4 @@ h1{
 }
 .attribution a {
   color: hsl(228, 45%, 44%); 
-
 }
-
